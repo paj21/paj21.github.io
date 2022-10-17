@@ -2,9 +2,23 @@ header {
     background-color: deepskyblue;
 }
 
+nav {
+    text-align: center;
+}
+
+table {
+    border-spacing: 30px;
+}
+
+th, td {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 2px black;
+    border-radius: 10px;
+}
+
 h1 {
     color:white;
-    font-size: 150%;
+    font-size: 300%;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
