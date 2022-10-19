@@ -16,9 +16,22 @@
 }
 
 .topbox {
+    width: 800px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -180px;
+    border: 5px white solid;
+    border-radius: 10px;
+    transform: scale(50%, 50%); 
+}
+
+.bottombox {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -180px;
     width: 95%;
-    height: 200%;
-    margin: 2%;
+    height: auto;
     border: 5px white solid;
     border-radius: 10px;
 }
