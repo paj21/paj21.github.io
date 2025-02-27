@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./css/styles.css">
+        <title>Play Tetris</title>
+
+    </head>
+
+    <body>
+        
+            <nav>
+                <a href = "index.html">
+                    <img src = "images/p_icon.png" class = "logo"/>
+                </a>
+
+                <!-- The onPage class will be given to the current page for coloring -->
+                <a href = "index.html" class = "page"><strong>Welcome</strong></a>
+                <a href = "trivia.html" class = "page"><strong>Trivia</strong></a>
+                <a href = "videos.html" class = "page"><strong>Videos</strong></a>
+                <a href = "games.html" class = "onPage page"><strong>Games</strong></a>
+            </nav>
+
+        <div class = "belowNav">
+            <h2>Play Tetris</h2>
+            <p>(Parker's Version)<p>
+
+            <canvas id="tetrisGame"></canvas>
+            <script src="tetris.js"></script>
+
+
+            <p>This is below the canvas.</p>
+        </div>
+    </body>
+</html>

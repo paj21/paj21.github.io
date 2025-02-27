@@ -1,0 +1,155 @@
+/* Imported google font */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/*
+GENERAL COLOR PALETTE (in hex)
+
+Dark Teal: #264653
+Teal: #2a9d8f
+Sand Yellow: #e9c46a
+Pastel Orange: #f4a261
+Sunset Orange: #e76f51
+*/
+
+
+/*
+
+P Icon uses Crickx font which is in the public domain
+
+*/
+
+
+
+/*
+The following styles are for general website function.
+*/
+
+/* Nav bar */
+nav {
+    background-color: #e9c46a;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    width: 110%;
+    margin-left: -1em;
+    box-shadow: 1em 0em 5px black;
+}
+
+.page {
+    color: white;
+    width: 20%;
+    float: left;
+    text-align: center;
+    margin-top: 1%;
+    padding-bottom: 1%;
+    padding-top: 0.5%;
+    background-color: #f4a261;
+    border-radius: 10px 10px 0px 0px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.page:hover {
+    background-color: #e76f51;
+}
+
+.onPage {
+    background-color: #e76f51;
+}
+
+.belowNav {
+    padding-top: 2em;
+}
+
+.logo {
+    padding-left: 0.5em;
+    max-height: 3em;
+    float: left;
+}
+/* End nav bar */
+
+
+
+/* Standard page layout */
+.firstThird {
+    flex: 1;
+    max-width: 33%;
+}
+
+.rightTwoThird {
+    flex: 2;
+    max-width: 66%;
+}
+
+.leftTwoThird {
+    flex: 1;
+    max-width: 66%;
+}
+
+.lastThird {
+    flex: 2;
+    max-width: 33%;
+}
+
+.contentRow {
+    display: flex;
+    width: 100%;
+}
+
+
+
+
+h1 {
+    color: #264653;
+    text-align: center;
+} 
+
+h2 {
+    color: #264653;
+    text-align: center;
+}
+
+/* CSS for primary-button class taken from my CS571 homework 1 */
+.primary-button {
+    /* Color adjustments */
+    background-color: rgb(31, 179, 190);
+    color: white;
+    transition: all 0.3s ease;
+  
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+  
+    /* Shape adjustments */
+    padding: 12px 15px;
+    border-radius: 12px;
+    border: none;
+    box-shadow: 0 2px #666;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+  }
+  
+  .primary-button:hover {
+    background-color: rgb(0, 118, 145);
+  }
+  
+  .primary-button:active {
+    background-color: rgb(13, 66, 107);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    transform: scale(0.95);
+  }
+  /* End standard page layout */
+
+
+/*
+The following styles are for JavaScript Tetris.
+*/
+canvas {
+    background-color: rgb(150, 150, 150);
+    border: 2px solid black;
+    display: block;
+}
